@@ -87,7 +87,7 @@ const Meal = () => {
         </div>
 
         <div  className=" py-4">
-        <Link to={mealDetail.strSource} className="btn btn-lg btn-success me-3" target="blank">Source</Link>
+        <Link to={mealDetail.strSource} className="btn btn-lg btn-success me-3 mb-2" target="blank">Source</Link>
         <Link to={mealDetail.strYoutube} className="btn btn-lg btn-danger me-3 " target="blank">Youtube</Link>
         </div>
 
