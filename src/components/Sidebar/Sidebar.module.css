@@ -1,0 +1,34 @@
+.topNav {
+  position: fixed;
+  left: -270px;
+  height: 100%;
+  background-color: #0d0d0d;
+  color: #fff;
+  display: flex;
+  z-index: 1;
+  transition: left 350ms;
+}
+.open {
+  left: 0;
+}
+.topNav > div:nth-child(1) {
+  max-width: 270px;
+}
+
+.topNav > div:nth-child(2) {
+  background-color: #fff;
+}
+.topNav ul li {
+  padding: 5px;
+  font-size: 18px;
+  transition: background-color 350ms, transform 350ms;
+}
+
+.topNav ul li:hover {
+  background-color: #939393;
+  transform: translateX(10px);
+}
+
+.logo {
+  max-width: 50px;
+}

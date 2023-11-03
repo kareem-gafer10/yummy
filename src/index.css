@@ -1,0 +1,40 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.cursor {
+  cursor: pointer;
+}
+.active {
+  background-color: #939393;
+}
+@media (max-width: 768px) {
+  .meal {
+    width: 75%;
+    margin: 0 auto !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .meal {
+    width: 90%;
+    margin: 0 auto !important;
+  }
+}
+.contact{
+  width: 80%;
+  margin: 0 auto;
+}
+@media(max-width:768px){
+  .contact{
+   margin-left: auto;
+   margin-right: 0;
+  }
+}

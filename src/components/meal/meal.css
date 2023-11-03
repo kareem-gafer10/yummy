@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  .meals-Details {
+    width: 80%;
+    margin: 0 auto !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .meals-Details {
+    width: 95%;
+    margin: 0 auto !important;
+  }
+}

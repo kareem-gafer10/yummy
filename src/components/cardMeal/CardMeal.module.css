@@ -1,0 +1,27 @@
+.meal {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.meal img{
+  width: 100%;
+}
+.layer {
+  transition: 0.5s ease-in;
+  top: 100%;
+}
+
+.meal:hover .layer {
+  background-color: #fff9;
+  top: 0;
+}
+
+@media(max-width:768px){
+  .meal {
+   width: 90%;
+   margin: 0 auto;
+  }
+  .meal img{
+    width: 100%;
+  }
+}
