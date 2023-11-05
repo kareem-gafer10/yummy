@@ -1,10 +1,11 @@
 import { useFormik } from "formik";
 import React from "react";
 import toast from "react-hot-toast";
+import { useNavigate  } from "react-router-dom";
 import * as Yup from "yup";
 
 const ContactUs = () => {
-
+  const navigate= useNavigate ();
 
   const validationSchema=Yup.object({
     name: Yup.string().required("Name is required").min(3, "Name must be more than 3 characters").max(10, "Name can't be more than 10 characers"),
@@ -20,7 +21,8 @@ const ContactUs = () => {
   const handleContact=()=>{
 
     toast.success("success",{duration:2000,className:"text-success px-4 fw-bolder"});
-
+    navigate("/")
+    formik.resetForm();
   }
 
 
